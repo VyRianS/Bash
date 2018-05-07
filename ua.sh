@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
 # UA.SH - Universal Automation
-# Currently backs up /home/jianyu/gitrepo to /home/jianyu/backup
+# Currently backs up /home/testuser/gitrepo to /home/testuser/backup
 
 # TODO: Expand for more functionality, maybe a restore
 
-HOME_DIR=/home/jianyu
+HOME_DIR=/home/testuser
 REPO_DIR=${HOME_DIR}/gitrepo
 BACKUP_DIR=${HOME_DIR}/backup
 COPIES_TO_KEEP=5
